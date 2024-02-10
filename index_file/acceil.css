@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 100vh;
+    background: linear-gradient(to right, violet, blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    font-size: 5rem;
+    color: white;
+}
+.header p {
+    font-size: 2rem;
+    color: white;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #11c1ec;
+    padding: 25px;
+}
+
+.nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rgb(28, 170, 0);
+}
+
+
+.services {
+    height: 50vh;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services .card {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+.services .card h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.services .card p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.qualities {
+    height: 50vh;
+    background: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.qualities .card {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+.qualities .card h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.qualities .card p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.contact {
+    height: 50vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.contact p {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
